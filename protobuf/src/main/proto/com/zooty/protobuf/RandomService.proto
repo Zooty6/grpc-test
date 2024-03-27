@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option java_package = "com.zooty.protobuf";
+option java_multiple_files = true;
+
+service RandomService {
+  rpc getRandomNumber(RandomNumberRequest) returns (RandomNumberResponse);
+  rpc getRandomNumbers(RandomNumbersRequest) returns (stream RandomNumberResponse);
+}
+
+message RandomNumberRequest {
+  optional NumberRange range = 1;
+}
+
+message RandomNumberResponse {
+  int32 randomNumber = 1;
+}
+
+message RandomNumbersRequest {
+  optional NumberRange range = 1;
+  int32 amount = 2;
+}
+
+message NumberRange {
+  int32 minimum = 1;
+  int32 maximum = 2;
+}
