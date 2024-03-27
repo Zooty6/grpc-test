@@ -1,8 +1,8 @@
-package com.zooty.client.runners;
+package dev.zooty.client.runners;
 
-import com.zooty.client.services.RandomService;
-import com.zooty.protobuf.NumberRange;
-import com.zooty.protobuf.RandomNumbersRequest;
+import dev.zooty.client.services.RandomService;
+import dev.zooty.protobuf.NumberRange;
+import dev.zooty.protobuf.RandomNumbersRequest;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;

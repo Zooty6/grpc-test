@@ -1,9 +1,9 @@
-package com.zooty.client.services;
+package dev.zooty.client.services;
 
-import com.zooty.protobuf.RandomNumberRequest;
-import com.zooty.protobuf.RandomNumberResponse;
-import com.zooty.protobuf.RandomNumbersRequest;
-import com.zooty.protobuf.RandomServiceGrpc;
+import dev.zooty.protobuf.RandomNumberRequest;
+import dev.zooty.protobuf.RandomNumberResponse;
+import dev.zooty.protobuf.RandomNumbersRequest;
+import dev.zooty.protobuf.RandomServiceGrpc;
 import net.devh.boot.grpc.client.inject.GrpcClient;
 import org.springframework.stereotype.Service;
 

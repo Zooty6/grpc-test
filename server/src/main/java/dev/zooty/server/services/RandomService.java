@@ -1,6 +1,6 @@
-package com.zooty.server.services;
+package dev.zooty.server.services;
 
-import com.zooty.protobuf.*;
+import dev.zooty.protobuf.*;
 import io.grpc.stub.StreamObserver;
 import net.devh.boot.grpc.server.service.GrpcService;
 

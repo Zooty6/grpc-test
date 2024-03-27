@@ -1,8 +1,8 @@
-package com.zooty.server.services;
+package dev.zooty.server.services;
 
-import com.zooty.protobuf.HelloWorldRequest;
-import com.zooty.protobuf.HelloWorldResponse;
-import com.zooty.protobuf.HelloWorldServiceGrpc;
+import dev.zooty.protobuf.HelloWorldRequest;
+import dev.zooty.protobuf.HelloWorldResponse;
+import dev.zooty.protobuf.HelloWorldServiceGrpc;
 import io.grpc.stub.StreamObserver;
 import lombok.extern.slf4j.Slf4j;
 import net.devh.boot.grpc.server.service.GrpcService;
